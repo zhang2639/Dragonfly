@@ -19,8 +19,8 @@ package progress
 import (
 	"time"
 
-	"github.com/dragonflyoss/Dragonfly/pkg/atomiccount"
-	"github.com/dragonflyoss/Dragonfly/pkg/syncmap"
+	"github.com/Dragonfly/pkg/atomiccount"
+	"github.com/Dragonfly/pkg/syncmap"
 
 	"github.com/willf/bitset"
 )

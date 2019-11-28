@@ -23,7 +23,7 @@ Dragonfly makes it simple and cost-effective to set up, operate, and scale any k
 
 ## Is Dragonfly only designed for distribute container images
 
-No, Dragonfly can be used to distribute all kinds of files, not only container images. For downloading files by Dragonfly, please refer to [Download a File](https://github.com/dragonflyoss/Dragonfly/blob/master/docs/quick_start/README.md#downloading-a-file-with-dragonfly). For pulling images by Dragonfly, please refer to [Pull an Image](https://github.com/dragonflyoss/Dragonfly/blob/master/docs/quick_start/README.md#pulling-an-image-with-dragonfly).
+No, Dragonfly can be used to distribute all kinds of files, not only container images. For downloading files by Dragonfly, please refer to [Download a File](https://github.com/Dragonfly/blob/master/docs/quick_start/README.md#downloading-a-file-with-dragonfly). For pulling images by Dragonfly, please refer to [Pull an Image](https://github.com/Dragonfly/blob/master/docs/quick_start/README.md#pulling-an-image-with-dragonfly).
 
 ## What is the sequence of P2P distribution
 
@@ -174,7 +174,7 @@ NOTE: If you use dfdaemon to call dfget, you can also pass this parameter to dfg
 
 ## How to use Dragonfly in Kubernetes
 
-It is very easy to deploy Dragonfly in Kubernetes with [Helm](https://github.com/helm/helm). For more information of Dragonfly's Helm Chart, please refer to project [dragonflyoss/helm-chart](https://github.com/dragonflyoss/helm-chart).
+It is very easy to deploy Dragonfly in Kubernetes with [Helm](https://github.com/helm/helm). For more information of Dragonfly's Helm Chart, please refer to project [helm-chart](https://github.com/helm-chart).
 
 ## Can an image from a third-party registry be pulled via Dragonfly
 
@@ -308,7 +308,7 @@ supernode cdn file server port | supernode --download-port | You should prepare 
 If you are in China,docker container uses UTC time(Coordinated Universal Time) and the host uses CST time(China Shanghai Time).So the log's time is 8 hours behind the host time.If you want to make their time consistent,you should add a config `-v /etc/localtime:/etc/localtime:ro` before you start a container.For example,you can run a command as follows to start a dfclient.
 
 ```sh
- docker run -d --name dfclient -v /etc/localtime:/etc/localtime:ro -p 65001:65001 dragonflyoss/dfclient:0.4.0 --registry https://index.docker.io
+ docker run -d --name dfclient -v /etc/localtime:/etc/localtime:ro -p 65001:65001 dfclient:0.4.0 --registry https://index.docker.io
 ```
 
 ## How to join Dragonfly as a member

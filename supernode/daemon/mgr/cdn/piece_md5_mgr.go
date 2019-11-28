@@ -20,8 +20,8 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/dragonflyoss/Dragonfly/pkg/errortypes"
-	"github.com/dragonflyoss/Dragonfly/pkg/syncmap"
+	"github.com/Dragonfly/pkg/errortypes"
+	"github.com/Dragonfly/pkg/syncmap"
 )
 
 type pieceMD5Mgr struct {

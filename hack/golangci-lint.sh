@@ -6,7 +6,7 @@ set -o pipefail
 
 # golangci-lint binary version v1.17.1
 
-PKG=github.com/dragonflyoss/Dragonfly
+PKG=github.com/Dragonfly
 LINT_IMAGE=pouchcontainer/pouchlinter:v0.2.3
 USE_DOCKER=${USE_DOCKER:-"0"}
 

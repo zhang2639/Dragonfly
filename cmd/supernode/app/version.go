@@ -17,9 +17,9 @@
 package app
 
 import (
-	"github.com/dragonflyoss/Dragonfly/pkg/printer"
+	"github.com/Dragonfly/pkg/printer"
 
-	"github.com/dragonflyoss/Dragonfly/version"
+	"github.com/Dragonfly/version"
 
 	"github.com/spf13/cobra"
 )

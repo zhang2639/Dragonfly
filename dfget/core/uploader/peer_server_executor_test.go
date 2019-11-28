@@ -27,8 +27,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/dragonflyoss/Dragonfly/dfget/core/helper"
-	"github.com/dragonflyoss/Dragonfly/version"
+	"github.com/Dragonfly/dfget/core/helper"
+	"github.com/Dragonfly/version"
 	"github.com/go-check/check"
 )
 

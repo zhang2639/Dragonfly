@@ -19,7 +19,7 @@ package helper
 import (
 	"strings"
 
-	"github.com/dragonflyoss/Dragonfly/dfget/config"
+	"github.com/Dragonfly/dfget/config"
 )
 
 // IsP2P returns whether the pattern is PatternP2P.

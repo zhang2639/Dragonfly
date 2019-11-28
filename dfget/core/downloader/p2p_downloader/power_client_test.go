@@ -25,11 +25,11 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/dragonflyoss/Dragonfly/dfget/config"
-	"github.com/dragonflyoss/Dragonfly/dfget/core/api"
-	"github.com/dragonflyoss/Dragonfly/dfget/types"
-	"github.com/dragonflyoss/Dragonfly/pkg/errortypes"
-	"github.com/dragonflyoss/Dragonfly/pkg/ratelimiter"
+	"github.com/Dragonfly/dfget/config"
+	"github.com/Dragonfly/dfget/core/api"
+	"github.com/Dragonfly/dfget/types"
+	"github.com/Dragonfly/pkg/errortypes"
+	"github.com/Dragonfly/pkg/ratelimiter"
 
 	"github.com/go-check/check"
 )

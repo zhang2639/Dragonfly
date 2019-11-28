@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dragonflyoss/Dragonfly/supernode/util"
+	"github.com/Dragonfly/supernode/util"
 
 	"github.com/sirupsen/logrus"
 )

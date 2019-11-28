@@ -28,11 +28,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/dragonflyoss/Dragonfly/dfget/config"
-	. "github.com/dragonflyoss/Dragonfly/dfget/core/helper"
-	"github.com/dragonflyoss/Dragonfly/dfget/core/regist"
-	"github.com/dragonflyoss/Dragonfly/dfget/core/uploader"
-	"github.com/dragonflyoss/Dragonfly/dfget/util"
+	"github.com/Dragonfly/dfget/config"
+	. "github.com/Dragonfly/dfget/core/helper"
+	"github.com/Dragonfly/dfget/core/regist"
+	"github.com/Dragonfly/dfget/core/uploader"
+	"github.com/Dragonfly/dfget/util"
 
 	"github.com/go-check/check"
 	"github.com/valyala/fasthttp"

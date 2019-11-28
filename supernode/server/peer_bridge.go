@@ -21,9 +21,9 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/dragonflyoss/Dragonfly/apis/types"
-	"github.com/dragonflyoss/Dragonfly/pkg/errortypes"
-	dutil "github.com/dragonflyoss/Dragonfly/supernode/daemon/util"
+	"github.com/Dragonfly/apis/types"
+	"github.com/Dragonfly/pkg/errortypes"
+	dutil "github.com/Dragonfly/supernode/daemon/util"
 
 	"github.com/go-openapi/strfmt"
 	"github.com/gorilla/mux"

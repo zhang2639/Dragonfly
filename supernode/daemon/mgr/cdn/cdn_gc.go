@@ -22,10 +22,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dragonflyoss/Dragonfly/pkg/errortypes"
-	"github.com/dragonflyoss/Dragonfly/supernode/config"
-	"github.com/dragonflyoss/Dragonfly/supernode/daemon/mgr"
-	"github.com/dragonflyoss/Dragonfly/supernode/store"
+	"github.com/Dragonfly/pkg/errortypes"
+	"github.com/Dragonfly/supernode/config"
+	"github.com/Dragonfly/supernode/daemon/mgr"
+	"github.com/Dragonfly/supernode/store"
 
 	"github.com/emirpasic/gods/maps/treemap"
 	godsutils "github.com/emirpasic/gods/utils"

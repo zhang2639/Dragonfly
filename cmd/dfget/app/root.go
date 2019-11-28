@@ -24,12 +24,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dragonflyoss/Dragonfly/dfget/config"
-	"github.com/dragonflyoss/Dragonfly/dfget/core"
-	"github.com/dragonflyoss/Dragonfly/pkg/dflog"
-	"github.com/dragonflyoss/Dragonfly/pkg/errortypes"
-	"github.com/dragonflyoss/Dragonfly/pkg/printer"
-	"github.com/dragonflyoss/Dragonfly/pkg/stringutils"
+	"github.com/Dragonfly/dfget/config"
+	"github.com/Dragonfly/dfget/core"
+	"github.com/Dragonfly/pkg/dflog"
+	"github.com/Dragonfly/pkg/errortypes"
+	"github.com/Dragonfly/pkg/printer"
+	"github.com/Dragonfly/pkg/stringutils"
 
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

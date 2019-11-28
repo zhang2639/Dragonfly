@@ -22,8 +22,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/dragonflyoss/Dragonfly/pkg/algorithm"
-	"github.com/dragonflyoss/Dragonfly/pkg/errortypes"
+	"github.com/Dragonfly/pkg/algorithm"
+	"github.com/Dragonfly/pkg/errortypes"
 
 	"github.com/pkg/errors"
 )

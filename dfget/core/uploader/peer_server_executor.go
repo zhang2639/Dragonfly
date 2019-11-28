@@ -27,9 +27,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/dragonflyoss/Dragonfly/dfget/config"
-	"github.com/dragonflyoss/Dragonfly/pkg/fileutils"
-	"github.com/dragonflyoss/Dragonfly/version"
+	"github.com/Dragonfly/dfget/config"
+	"github.com/Dragonfly/pkg/fileutils"
+	"github.com/Dragonfly/version"
 
 	"github.com/sirupsen/logrus"
 )

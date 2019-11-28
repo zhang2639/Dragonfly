@@ -10,8 +10,8 @@ import (
 
 	gomock "github.com/golang/mock/gomock"
 
-	types "github.com/dragonflyoss/Dragonfly/apis/types"
-	mgr "github.com/dragonflyoss/Dragonfly/supernode/daemon/mgr"
+	types "github.com/Dragonfly/apis/types"
+	mgr "github.com/Dragonfly/supernode/daemon/mgr"
 )
 
 // MockCDNMgr is a mock of CDNMgr interface

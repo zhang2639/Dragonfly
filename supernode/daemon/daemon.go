@@ -20,10 +20,10 @@ import (
 	"context"
 	"os"
 
-	"github.com/dragonflyoss/Dragonfly/apis/types"
-	"github.com/dragonflyoss/Dragonfly/supernode/config"
-	"github.com/dragonflyoss/Dragonfly/supernode/plugins"
-	"github.com/dragonflyoss/Dragonfly/supernode/server"
+	"github.com/Dragonfly/apis/types"
+	"github.com/Dragonfly/supernode/config"
+	"github.com/Dragonfly/supernode/plugins"
+	"github.com/Dragonfly/supernode/server"
 
 	"github.com/go-openapi/strfmt"
 	"github.com/prometheus/client_golang/prometheus"

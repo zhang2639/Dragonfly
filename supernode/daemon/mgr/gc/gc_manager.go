@@ -20,9 +20,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/dragonflyoss/Dragonfly/pkg/metricsutils"
-	"github.com/dragonflyoss/Dragonfly/supernode/config"
-	"github.com/dragonflyoss/Dragonfly/supernode/daemon/mgr"
+	"github.com/Dragonfly/pkg/metricsutils"
+	"github.com/Dragonfly/supernode/config"
+	"github.com/Dragonfly/supernode/daemon/mgr"
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/sirupsen/logrus"

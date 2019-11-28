@@ -21,12 +21,12 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/dragonflyoss/Dragonfly/apis/types"
-	"github.com/dragonflyoss/Dragonfly/pkg/constants"
-	"github.com/dragonflyoss/Dragonfly/pkg/errortypes"
-	"github.com/dragonflyoss/Dragonfly/pkg/netutils"
-	"github.com/dragonflyoss/Dragonfly/pkg/stringutils"
-	sutil "github.com/dragonflyoss/Dragonfly/supernode/util"
+	"github.com/Dragonfly/apis/types"
+	"github.com/Dragonfly/pkg/constants"
+	"github.com/Dragonfly/pkg/errortypes"
+	"github.com/Dragonfly/pkg/netutils"
+	"github.com/Dragonfly/pkg/stringutils"
+	sutil "github.com/Dragonfly/supernode/util"
 
 	"github.com/go-openapi/strfmt"
 	"github.com/gorilla/schema"

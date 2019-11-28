@@ -19,8 +19,8 @@ package mgr
 import (
 	"context"
 
-	"github.com/dragonflyoss/Dragonfly/apis/types"
-	"github.com/dragonflyoss/Dragonfly/supernode/daemon/util"
+	"github.com/Dragonfly/apis/types"
+	"github.com/Dragonfly/supernode/daemon/util"
 )
 
 // PeerMgr as an interface defines all operations against Peer.

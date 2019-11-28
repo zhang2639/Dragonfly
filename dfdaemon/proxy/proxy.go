@@ -27,10 +27,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dragonflyoss/Dragonfly/dfdaemon/config"
-	"github.com/dragonflyoss/Dragonfly/dfdaemon/downloader"
-	"github.com/dragonflyoss/Dragonfly/dfdaemon/downloader/dfget"
-	"github.com/dragonflyoss/Dragonfly/dfdaemon/transport"
+	"github.com/Dragonfly/dfdaemon/config"
+	"github.com/Dragonfly/dfdaemon/downloader"
+	"github.com/Dragonfly/dfdaemon/downloader/dfget"
+	"github.com/Dragonfly/dfdaemon/transport"
 
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

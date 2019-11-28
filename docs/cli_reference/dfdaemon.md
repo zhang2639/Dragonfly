@@ -15,7 +15,7 @@ dfdaemon [flags]
 ```
       --certpem string     cert.pem file path
       --config string      the path of dfdaemon's configuration file (default "/etc/dragonfly/dfdaemon.yml")
-      --dfpath string      dfget path (default "/go/src/github.com/dragonflyoss/Dragonfly/bin/linux_amd64/dfget")
+      --dfpath string      dfget path (default "/go/src/github.com/Dragonfly/bin/linux_amd64/dfget")
   -h, --help               help for dfdaemon
       --hostIp string      dfdaemon host ip, default: 127.0.0.1 (default "127.0.0.1")
       --keypem string      key.pem file path

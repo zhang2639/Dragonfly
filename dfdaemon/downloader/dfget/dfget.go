@@ -26,9 +26,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/dragonflyoss/Dragonfly/dfdaemon/config"
-	"github.com/dragonflyoss/Dragonfly/dfdaemon/constant"
-	"github.com/dragonflyoss/Dragonfly/dfdaemon/exception"
+	"github.com/Dragonfly/dfdaemon/config"
+	"github.com/Dragonfly/dfdaemon/constant"
+	"github.com/Dragonfly/dfdaemon/exception"
 
 	log "github.com/sirupsen/logrus"
 )

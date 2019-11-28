@@ -19,7 +19,7 @@ package client
 import (
 	"context"
 
-	"github.com/dragonflyoss/Dragonfly/apis/types"
+	"github.com/Dragonfly/apis/types"
 )
 
 // PeerList lists detailed information of all peers in supernode.

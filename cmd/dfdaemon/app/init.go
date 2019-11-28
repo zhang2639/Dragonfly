@@ -26,12 +26,12 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/dragonflyoss/Dragonfly/dfdaemon/config"
-	"github.com/dragonflyoss/Dragonfly/dfdaemon/constant"
-	"github.com/dragonflyoss/Dragonfly/pkg/dflog"
-	"github.com/dragonflyoss/Dragonfly/pkg/errortypes"
-	"github.com/dragonflyoss/Dragonfly/pkg/fileutils"
-	statutil "github.com/dragonflyoss/Dragonfly/pkg/stat"
+	"github.com/Dragonfly/dfdaemon/config"
+	"github.com/Dragonfly/dfdaemon/constant"
+	"github.com/Dragonfly/pkg/dflog"
+	"github.com/Dragonfly/pkg/errortypes"
+	"github.com/Dragonfly/pkg/fileutils"
+	statutil "github.com/Dragonfly/pkg/stat"
 
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

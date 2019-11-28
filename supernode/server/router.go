@@ -22,8 +22,8 @@ import (
 	"net/http"
 	"net/http/pprof"
 
-	"github.com/dragonflyoss/Dragonfly/apis/types"
-	"github.com/dragonflyoss/Dragonfly/version"
+	"github.com/Dragonfly/apis/types"
+	"github.com/Dragonfly/version"
 
 	"github.com/gorilla/mux"
 	"github.com/prometheus/client_golang/prometheus"

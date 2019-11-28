@@ -16,9 +16,9 @@ You can install from the latest packages we provided.
 
     Available packages:
 
-    - [Linux 64-bit](https://github.com/dragonflyoss/Dragonfly/releases/download/v0.4.3/df-client_0.4.3_linux_amd64.tar.gz): `https://github.com/dragonflyoss/Dragonfly/releases/download/v0.4.3/df-client_0.4.3_linux_amd64.tar.gz`
+    - [Linux 64-bit](https://github.com/Dragonfly/releases/download/v0.4.3/df-client_0.4.3_linux_amd64.tar.gz): `https://github.com/Dragonfly/releases/download/v0.4.3/df-client_0.4.3_linux_amd64.tar.gz`
 
-    - [MacOS 64-bit](https://github.com/dragonflyoss/Dragonfly/releases/download/v0.4.3/df-client_0.4.3_darwin_amd64.tar.gz): `https://github.com/dragonflyoss/Dragonfly/releases/download/v0.4.3/df-client_0.4.3_darwin_amd64.tar.gz`
+    - [MacOS 64-bit](https://github.com/Dragonfly/releases/download/v0.4.3/df-client_0.4.3_darwin_amd64.tar.gz): `https://github.com/Dragonfly/releases/download/v0.4.3/df-client_0.4.3_darwin_amd64.tar.gz`
 
 2. Unzip the package.
 
@@ -46,7 +46,7 @@ You can also install from the source code.
 1. Obtain the source code of Dragonfly.
 
     ```sh
-    git clone https://github.com/dragonflyoss/Dragonfly.git
+    git clone https://github.com/Dragonfly.git
     ```
 
 2. Enter the target directory.

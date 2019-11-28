@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"time"
 
-	api_types "github.com/dragonflyoss/Dragonfly/apis/types"
-	"github.com/dragonflyoss/Dragonfly/dfget/types"
-	"github.com/dragonflyoss/Dragonfly/pkg/constants"
-	"github.com/dragonflyoss/Dragonfly/pkg/httputils"
+	api_types "github.com/Dragonfly/apis/types"
+	"github.com/Dragonfly/dfget/types"
+	"github.com/Dragonfly/pkg/constants"
+	"github.com/Dragonfly/pkg/httputils"
 
 	"github.com/sirupsen/logrus"
 )

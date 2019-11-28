@@ -24,12 +24,12 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/dragonflyoss/Dragonfly/dfdaemon"
-	"github.com/dragonflyoss/Dragonfly/dfdaemon/config"
-	"github.com/dragonflyoss/Dragonfly/dfdaemon/constant"
-	dferr "github.com/dragonflyoss/Dragonfly/pkg/errortypes"
-	"github.com/dragonflyoss/Dragonfly/pkg/netutils"
-	"github.com/dragonflyoss/Dragonfly/pkg/rate"
+	"github.com/Dragonfly/dfdaemon"
+	"github.com/Dragonfly/dfdaemon/config"
+	"github.com/Dragonfly/dfdaemon/constant"
+	dferr "github.com/Dragonfly/pkg/errortypes"
+	"github.com/Dragonfly/pkg/netutils"
+	"github.com/Dragonfly/pkg/rate"
 
 	"github.com/mitchellh/mapstructure"
 	"github.com/pkg/errors"

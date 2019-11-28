@@ -19,7 +19,7 @@ package plugins
 import (
 	"fmt"
 
-	"github.com/dragonflyoss/Dragonfly/supernode/config"
+	"github.com/Dragonfly/supernode/config"
 
 	"github.com/sirupsen/logrus"
 )

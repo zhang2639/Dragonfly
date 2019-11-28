@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/dragonflyoss/Dragonfly/pkg/fileutils"
-	"github.com/dragonflyoss/Dragonfly/pkg/stringutils"
-	"github.com/dragonflyoss/Dragonfly/supernode/config"
+	"github.com/Dragonfly/pkg/fileutils"
+	"github.com/Dragonfly/pkg/stringutils"
+	"github.com/Dragonfly/supernode/config"
 
 	"github.com/pkg/errors"
 )

@@ -17,7 +17,7 @@
 package main
 
 import (
-	"github.com/dragonflyoss/Dragonfly/cmd/dfdaemon/app"
+	"github.com/Dragonfly/cmd/dfdaemon/app"
 )
 
 func main() {

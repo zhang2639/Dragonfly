@@ -24,9 +24,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/dragonflyoss/Dragonfly/pkg/fileutils"
-	statutils "github.com/dragonflyoss/Dragonfly/pkg/stat"
-	"github.com/dragonflyoss/Dragonfly/supernode/util"
+	"github.com/Dragonfly/pkg/fileutils"
+	statutils "github.com/Dragonfly/pkg/stat"
+	"github.com/Dragonfly/supernode/util"
 
 	"github.com/pkg/errors"
 	"gopkg.in/yaml.v2"

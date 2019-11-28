@@ -21,9 +21,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/dragonflyoss/Dragonfly/dfget/types"
-	"github.com/dragonflyoss/Dragonfly/pkg/constants"
-	"github.com/dragonflyoss/Dragonfly/pkg/httputils"
+	"github.com/Dragonfly/dfget/types"
+	"github.com/Dragonfly/pkg/constants"
+	"github.com/Dragonfly/pkg/httputils"
 
 	"github.com/go-check/check"
 )

@@ -31,8 +31,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dragonflyoss/Dragonfly/pkg/httputils"
-	"github.com/dragonflyoss/Dragonfly/test/environment"
+	"github.com/Dragonfly/pkg/httputils"
+	"github.com/Dragonfly/test/environment"
 )
 
 var (

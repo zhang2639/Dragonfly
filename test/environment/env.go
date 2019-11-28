@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/dragonflyoss/Dragonfly/client"
+	"github.com/Dragonfly/client"
 )
 
 var (

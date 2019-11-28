@@ -20,9 +20,9 @@ import (
 	"context"
 	"path"
 
-	"github.com/dragonflyoss/Dragonfly/pkg/stringutils"
-	"github.com/dragonflyoss/Dragonfly/supernode/config"
-	"github.com/dragonflyoss/Dragonfly/supernode/store"
+	"github.com/Dragonfly/pkg/stringutils"
+	"github.com/Dragonfly/supernode/config"
+	"github.com/Dragonfly/supernode/store"
 )
 
 var getDownloadRawFunc = getDownloadRaw

@@ -16,7 +16,7 @@ unit_test() {
 
     # folder /test contains test cases for integration test.
     # then we exclude them in unit test.
-    cmd="go list ./... | grep 'github.com/dragonflyoss/Dragonfly/'"
+    cmd="go list ./... | grep 'github.com/Dragonfly/'"
     excludes="${GO_SOURCE_EXCLUDES[*]}"
     excludes="${excludes// /|}"
     retCode=0

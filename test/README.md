@@ -53,7 +53,7 @@ Then you could just clone the Dragonfly source to GOPATH and run tests as follow
 # env |grep GO
 GOROOT=/usr/local/go
 GOPATH=/go
-# cd /go/src/github.com/dragonflyoss/Dragonfly
+# cd /go/src/github.com/Dragonfly
 # make test
 ```
 
@@ -89,7 +89,7 @@ Then copy or clone Dragonfly source code to the GOPATH:
 
 ``` shell
 # pwd
-/go/src/github.com/dragonflyoss/Dragonfly
+/go/src/github.com/Dragonfly
 ```
 
 Make a build folder to use later:
@@ -111,7 +111,7 @@ Or using go test $testdir to run unit test in a specified directory.
 
 ``` shell
 # go test ./client
-ok      github.com/dragonflyoss/Dragonfly/client    0.094s
+ok      github.com/Dragonfly/client    0.094s
 ```
 
 There are more works to do for integration test compared with unit test.
@@ -139,7 +139,7 @@ Then integration test could be run as following:
 # go test -check.f APIPingSuite
 OK: 3 passed
 PASS
-ok      github.com/dragonflyoss/Dragonfly/test    3.081s
+ok      github.com/Dragonfly/test    3.081s
 ```
 
 * run a single test case(only specified test function will be run):
@@ -148,7 +148,7 @@ ok      github.com/dragonflyoss/Dragonfly/test    3.081s
 # go test -check.f APIPingSuite.TestPing
 OK: 1 passed
 PASS
-ok      github.com/dragonflyoss/Dragonfly/test    0.488s
+ok      github.com/Dragonfly/test    0.488s
 ```
 
 * run with more information:

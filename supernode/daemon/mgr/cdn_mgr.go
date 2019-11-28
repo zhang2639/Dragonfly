@@ -19,7 +19,7 @@ package mgr
 import (
 	"context"
 
-	"github.com/dragonflyoss/Dragonfly/apis/types"
+	"github.com/Dragonfly/apis/types"
 )
 
 // CDNMgr as an interface defines all operations against CDN and

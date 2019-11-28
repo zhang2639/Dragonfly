@@ -29,8 +29,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dragonflyoss/Dragonfly/pkg/rate"
-	"github.com/dragonflyoss/Dragonfly/pkg/stringutils"
+	"github.com/Dragonfly/pkg/rate"
+	"github.com/Dragonfly/pkg/stringutils"
 
 	log "github.com/sirupsen/logrus"
 )

@@ -20,12 +20,12 @@ import (
 	"context"
 	"testing"
 
-	"github.com/dragonflyoss/Dragonfly/apis/types"
-	"github.com/dragonflyoss/Dragonfly/pkg/errortypes"
-	"github.com/dragonflyoss/Dragonfly/supernode/config"
-	"github.com/dragonflyoss/Dragonfly/supernode/daemon/mgr/mock"
-	dutil "github.com/dragonflyoss/Dragonfly/supernode/daemon/util"
-	cMock "github.com/dragonflyoss/Dragonfly/supernode/httpclient/mock"
+	"github.com/Dragonfly/apis/types"
+	"github.com/Dragonfly/pkg/errortypes"
+	"github.com/Dragonfly/supernode/config"
+	"github.com/Dragonfly/supernode/daemon/mgr/mock"
+	dutil "github.com/Dragonfly/supernode/daemon/util"
+	cMock "github.com/Dragonfly/supernode/httpclient/mock"
 
 	"github.com/go-check/check"
 	"github.com/golang/mock/gomock"

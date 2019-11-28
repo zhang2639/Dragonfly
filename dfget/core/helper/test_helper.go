@@ -24,12 +24,12 @@ import (
 	"os"
 	"path/filepath"
 
-	api_types "github.com/dragonflyoss/Dragonfly/apis/types"
-	"github.com/dragonflyoss/Dragonfly/dfget/config"
-	"github.com/dragonflyoss/Dragonfly/dfget/core/api"
-	"github.com/dragonflyoss/Dragonfly/dfget/types"
-	"github.com/dragonflyoss/Dragonfly/pkg/constants"
-	"github.com/dragonflyoss/Dragonfly/pkg/fileutils"
+	api_types "github.com/Dragonfly/apis/types"
+	"github.com/Dragonfly/dfget/config"
+	"github.com/Dragonfly/dfget/core/api"
+	"github.com/Dragonfly/dfget/types"
+	"github.com/Dragonfly/pkg/constants"
+	"github.com/Dragonfly/pkg/fileutils"
 
 	"github.com/sirupsen/logrus"
 )

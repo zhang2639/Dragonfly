@@ -22,7 +22,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/dragonflyoss/Dragonfly/pkg/fileutils"
+	"github.com/Dragonfly/pkg/fileutils"
 )
 
 // StorageDriver defines an interface to manage the data stored in the driver.

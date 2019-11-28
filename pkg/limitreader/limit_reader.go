@@ -21,8 +21,8 @@ import (
 	"hash"
 	"io"
 
-	"github.com/dragonflyoss/Dragonfly/pkg/fileutils"
-	"github.com/dragonflyoss/Dragonfly/pkg/ratelimiter"
+	"github.com/Dragonfly/pkg/fileutils"
+	"github.com/Dragonfly/pkg/ratelimiter"
 )
 
 // NewLimitReader creates a LimitReader.

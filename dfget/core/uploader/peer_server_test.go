@@ -28,14 +28,14 @@ import (
 
 	"github.com/go-check/check"
 
-	"github.com/dragonflyoss/Dragonfly/dfget/config"
-	"github.com/dragonflyoss/Dragonfly/dfget/core/api"
-	"github.com/dragonflyoss/Dragonfly/dfget/core/helper"
-	"github.com/dragonflyoss/Dragonfly/dfget/types"
-	"github.com/dragonflyoss/Dragonfly/pkg/errortypes"
-	"github.com/dragonflyoss/Dragonfly/pkg/fileutils"
-	"github.com/dragonflyoss/Dragonfly/pkg/httputils"
-	"github.com/dragonflyoss/Dragonfly/version"
+	"github.com/Dragonfly/dfget/config"
+	"github.com/Dragonfly/dfget/core/api"
+	"github.com/Dragonfly/dfget/core/helper"
+	"github.com/Dragonfly/dfget/types"
+	"github.com/Dragonfly/pkg/errortypes"
+	"github.com/Dragonfly/pkg/fileutils"
+	"github.com/Dragonfly/pkg/httputils"
+	"github.com/Dragonfly/version"
 )
 
 func init() {

@@ -21,8 +21,8 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/dragonflyoss/Dragonfly/supernode/config"
-	"github.com/dragonflyoss/Dragonfly/supernode/plugins"
+	"github.com/Dragonfly/supernode/config"
+	"github.com/Dragonfly/supernode/plugins"
 )
 
 // StorageBuilder is a function that creates a new storage plugin instant

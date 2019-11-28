@@ -23,7 +23,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/dragonflyoss/Dragonfly/pkg/fileutils"
+	"github.com/Dragonfly/pkg/fileutils"
 
 	"github.com/go-check/check"
 )

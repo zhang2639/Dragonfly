@@ -19,8 +19,8 @@ package config
 import (
 	"time"
 
-	"github.com/dragonflyoss/Dragonfly/pkg/fileutils"
-	"github.com/dragonflyoss/Dragonfly/pkg/rate"
+	"github.com/Dragonfly/pkg/fileutils"
+	"github.com/Dragonfly/pkg/rate"
 )
 
 const (

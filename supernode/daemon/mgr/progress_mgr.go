@@ -19,9 +19,9 @@ package mgr
 import (
 	"context"
 
-	"github.com/dragonflyoss/Dragonfly/apis/types"
-	"github.com/dragonflyoss/Dragonfly/pkg/atomiccount"
-	"github.com/dragonflyoss/Dragonfly/pkg/syncmap"
+	"github.com/Dragonfly/apis/types"
+	"github.com/Dragonfly/pkg/atomiccount"
+	"github.com/Dragonfly/pkg/syncmap"
 )
 
 // PeerState maintains peer related information.

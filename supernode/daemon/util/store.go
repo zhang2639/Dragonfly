@@ -17,7 +17,7 @@
 package util
 
 import (
-	"github.com/dragonflyoss/Dragonfly/pkg/syncmap"
+	"github.com/Dragonfly/pkg/syncmap"
 )
 
 // Store maintains some metadata information in memory.

@@ -19,8 +19,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/dragonflyoss/Dragonfly/test/command"
-	"github.com/dragonflyoss/Dragonfly/test/request"
+	"github.com/Dragonfly/test/command"
+	"github.com/Dragonfly/test/request"
 
 	"github.com/go-check/check"
 )

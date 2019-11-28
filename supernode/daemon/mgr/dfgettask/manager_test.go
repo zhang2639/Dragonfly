@@ -20,9 +20,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/dragonflyoss/Dragonfly/apis/types"
-	"github.com/dragonflyoss/Dragonfly/pkg/errortypes"
-	"github.com/dragonflyoss/Dragonfly/supernode/config"
+	"github.com/Dragonfly/apis/types"
+	"github.com/Dragonfly/pkg/errortypes"
+	"github.com/Dragonfly/supernode/config"
 
 	"github.com/go-check/check"
 	"github.com/prometheus/client_golang/prometheus"

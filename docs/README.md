@@ -66,4 +66,4 @@ The folder `/docs` does not contain all the document about Dragonfly. There are 
 * [ROADMAP.md](../ROADMAP.md)
 * others.
 
-If you are searching some document and find no one, please do not hesitate to [file an ISSUE](https://github.com/dragonflyoss/Dragonfly/issues/new/choose) for help. In addition, if you found that there are some incorrect places or typos in document, please help submit a pull request to correct that.
+If you are searching some document and find no one, please do not hesitate to [file an ISSUE](https://github.com/Dragonfly/issues/new/choose) for help. In addition, if you found that there are some incorrect places or typos in document, please help submit a pull request to correct that.

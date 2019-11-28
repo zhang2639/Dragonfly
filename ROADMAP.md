@@ -22,13 +22,13 @@ We will try to finish it before **October 31, 2019**.
 
 ### Golang SDK
 
-`Dragonfly` needs a Golang SDK which is stored in https://github.com/dragonflyoss/Dragonfly/tree/master/client. And then we can achieve the following goals:
+`Dragonfly` needs a Golang SDK which is stored in https://github.com/Dragonfly/tree/master/client. And then we can achieve the following goals:
 
 * every caller of `Dragonfly` can take advantages of this SDK by integrating it
 * golang sdk encapsulates of the details of HTTP communication
 * it could provide scalability and portability for other system to integrate `Dragonfly`.
 
-Related issue: [#348](https://github.com/dragonflyoss/Dragonfly/issues/348)
+Related issue: [#348](https://github.com/Dragonfly/issues/348)
 
 ### Supernode HA
 
@@ -37,14 +37,14 @@ When one of the `supernode server` is unavailable, dfclient will try to register
 The `supernode` registered will download the file from source server, reschedule pieces and re-build a P2P network because it lacks the information about the task and the peer node which will cost a lot of time.
 So we should make multiple `supernodes` be aware of each other.
 
-Related issue: [#232](https://github.com/dragonflyoss/Dragonfly/issues/232)
+Related issue: [#232](https://github.com/Dragonfly/issues/232)
 
 ### Merge the dfdaemon and dfget components
 
 Both `dfdaemon` and `dfget` are meant for the client and packaged together into dfclient.
 So we can merge them into one single command to make the `Dragonfly` look simpler and easier to be deployed.
 
-Related issue: [#806](https://github.com/dragonflyoss/Dragonfly/issues/806)
+Related issue: [#806](https://github.com/Dragonfly/issues/806)
 
 ### Decentralized distribution
 
@@ -53,7 +53,7 @@ It works well, however, the user has to maintain a `supernode` server and `super
 So we can use a new approach where `dfget` can discover the same information without talking to `supernode` and
 all the clients can form a gossip cluster, where they can fire and listen for events.
 
-Related PR: [#594](https://github.com/dragonflyoss/Dragonfly/pull/594)
+Related PR: [#594](https://github.com/Dragonfly/pull/594)
 
 ## v0.5.x
 
@@ -73,7 +73,7 @@ As a cloud native project, we should do more work to support deploy the `Dragonf
 * Deploy `supernode` cluster using [Operator](https://coreos.com/operators/).
 * Deploy `dfget & dfdaemon` using DaemonSet in Kubernetes.
 
-Related issue: [#346](https://github.com/dragonflyoss/Dragonfly/issues/346)
+Related issue: [#346](https://github.com/Dragonfly/issues/346)
 
 ### Support multi-server computing framework
 
@@ -81,7 +81,7 @@ With the rise of ARM servers, x86 servers will not be the only choice.
 However, the images of the two computing frameworks are incompatible for one application.
 So the user will have to maintain the different versions for the same image which will bring challenges to management.
 
-Related issue: [#775](https://github.com/dragonflyoss/Dragonfly/issues/775)
+Related issue: [#775](https://github.com/Dragonfly/issues/775)
 
 ### Development of operation and maintenance tools
 

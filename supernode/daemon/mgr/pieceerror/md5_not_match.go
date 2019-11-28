@@ -19,9 +19,9 @@ package pieceerror
 import (
 	"context"
 
-	"github.com/dragonflyoss/Dragonfly/apis/types"
-	"github.com/dragonflyoss/Dragonfly/supernode/daemon/mgr"
-	"github.com/dragonflyoss/Dragonfly/supernode/util"
+	"github.com/Dragonfly/apis/types"
+	"github.com/Dragonfly/supernode/daemon/mgr"
+	"github.com/Dragonfly/supernode/util"
 
 	"github.com/sirupsen/logrus"
 )

@@ -22,10 +22,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/dragonflyoss/Dragonfly/dfdaemon/config"
-	"github.com/dragonflyoss/Dragonfly/dfdaemon/handler"
-	"github.com/dragonflyoss/Dragonfly/dfdaemon/proxy"
-	"github.com/dragonflyoss/Dragonfly/version"
+	"github.com/Dragonfly/dfdaemon/config"
+	"github.com/Dragonfly/dfdaemon/handler"
+	"github.com/Dragonfly/dfdaemon/proxy"
+	"github.com/Dragonfly/version"
 
 	"github.com/pkg/errors"
 	"github.com/prometheus/client_golang/prometheus"

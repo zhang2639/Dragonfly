@@ -20,9 +20,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dragonflyoss/Dragonfly/dfget/config"
-	"github.com/dragonflyoss/Dragonfly/dfget/core/api"
-	"github.com/dragonflyoss/Dragonfly/version"
+	"github.com/Dragonfly/dfget/config"
+	"github.com/Dragonfly/dfget/core/api"
+	"github.com/Dragonfly/version"
 )
 
 // FinishTask reports a finished task to peer server.

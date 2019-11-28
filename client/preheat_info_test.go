@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dragonflyoss/Dragonfly/apis/types"
+	"github.com/Dragonfly/apis/types"
 
 	"github.com/go-openapi/strfmt"
 	"github.com/stretchr/testify/assert"

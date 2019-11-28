@@ -22,7 +22,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/dragonflyoss/Dragonfly/dfget/config"
+	"github.com/Dragonfly/dfget/config"
 	"github.com/go-check/check"
 )
 

@@ -19,9 +19,9 @@ package mgr
 import (
 	"context"
 
-	"github.com/dragonflyoss/Dragonfly/apis/types"
-	"github.com/dragonflyoss/Dragonfly/pkg/syncmap"
-	"github.com/dragonflyoss/Dragonfly/supernode/config"
+	"github.com/Dragonfly/apis/types"
+	"github.com/Dragonfly/pkg/syncmap"
+	"github.com/Dragonfly/supernode/config"
 )
 
 // PieceStatusMap maintains the mapping relationship between PieceUpdateRequestResult and PieceStatus code.

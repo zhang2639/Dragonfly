@@ -7,7 +7,7 @@ set -o pipefail
 DFDAEMON_BINARY_NAME=dfdaemon
 DFGET_BINARY_NAME=dfget
 SUPERNODE_BINARY_NAME=supernode
-PKG=github.com/dragonflyoss/Dragonfly
+PKG=github.com/Dragonfly
 BUILD_IMAGE=golang:1.12.10
 VERSION=$(git describe --tags "$(git rev-list --tags --max-count=1)")
 REVISION=$(git rev-parse --short HEAD)

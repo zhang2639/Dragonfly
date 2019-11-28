@@ -19,10 +19,10 @@ package task
 import (
 	"context"
 
-	"github.com/dragonflyoss/Dragonfly/apis/types"
-	"github.com/dragonflyoss/Dragonfly/supernode/config"
-	"github.com/dragonflyoss/Dragonfly/supernode/daemon/mgr/mock"
-	cMock "github.com/dragonflyoss/Dragonfly/supernode/httpclient/mock"
+	"github.com/Dragonfly/apis/types"
+	"github.com/Dragonfly/supernode/config"
+	"github.com/Dragonfly/supernode/daemon/mgr/mock"
+	cMock "github.com/Dragonfly/supernode/httpclient/mock"
 
 	"github.com/go-check/check"
 	"github.com/golang/mock/gomock"

@@ -22,7 +22,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/dragonflyoss/Dragonfly/test/request"
+	"github.com/Dragonfly/test/request"
 
 	"github.com/go-check/check"
 )

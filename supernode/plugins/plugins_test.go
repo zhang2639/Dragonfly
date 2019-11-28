@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/dragonflyoss/Dragonfly/supernode/config"
+	"github.com/Dragonfly/supernode/config"
 
 	"github.com/go-check/check"
 )

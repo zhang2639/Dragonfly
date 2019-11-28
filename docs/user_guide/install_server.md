@@ -37,7 +37,7 @@ You can get it from [DockerHub](https://hub.docker.com/) directly.
 1. Obtain the latest Docker image ID of the SuperNode.
 
     ```sh
-    docker pull dragonflyoss/supernode:0.4.3
+    docker pull supernode:0.4.3
     ```
 
 Or you can build your own supernode image.
@@ -45,7 +45,7 @@ Or you can build your own supernode image.
 1. Obtain the source code of Dragonfly.
 
     ```sh
-    git clone https://github.com/dragonflyoss/Dragonfly.git
+    git clone https://github.com/Dragonfly.git
     ```
 
 2. Enter the project directory.
@@ -72,7 +72,7 @@ Or you can build your own supernode image.
 **NOTE**: Replace ${supernodeDockerImageId} with the ID obtained at the previous step.
 
 ```sh
-docker run -d --name supernode --restart=always -p 8001:8001 -p 8002:8002 -v /home/admin/supernode:/home/admin/supernode dragonflyoss/supernode:0.4.3 --download-port=8001
+docker run -d --name supernode --restart=always -p 8001:8001 -p 8002:8002 -v /home/admin/supernode:/home/admin/supernode supernode:0.4.3 --download-port=8001
 
 or
 
@@ -84,7 +84,7 @@ docker run -d --name supernode --restart=always -p 8001:8001 -p 8002:8002 -v /ho
 1. Obtain the source code of Dragonfly.
 
     ```sh
-    git clone https://github.com/dragonflyoss/Dragonfly.git
+    git clone https://github.com/Dragonfly.git
     ```
 
 2. Enter the project directory.

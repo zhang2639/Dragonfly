@@ -23,8 +23,8 @@ import (
 	. "path/filepath"
 	"time"
 
-	"github.com/dragonflyoss/Dragonfly/test/command"
-	"github.com/dragonflyoss/Dragonfly/test/environment"
+	"github.com/Dragonfly/test/command"
+	"github.com/Dragonfly/test/environment"
 
 	"github.com/go-check/check"
 )

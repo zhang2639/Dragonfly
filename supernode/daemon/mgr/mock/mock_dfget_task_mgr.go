@@ -10,7 +10,7 @@ import (
 
 	gomock "github.com/golang/mock/gomock"
 
-	types "github.com/dragonflyoss/Dragonfly/apis/types"
+	types "github.com/Dragonfly/apis/types"
 )
 
 // MockDfgetTaskMgr is a mock of DfgetTaskMgr interface

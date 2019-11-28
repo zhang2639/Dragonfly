@@ -1,4 +1,4 @@
-module github.com/dragonflyoss/Dragonfly
+module github.com/Dragonfly
 
 go 1.12
 

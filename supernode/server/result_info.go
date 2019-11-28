@@ -19,8 +19,8 @@ package server
 import (
 	"fmt"
 
-	"github.com/dragonflyoss/Dragonfly/pkg/constants"
-	"github.com/dragonflyoss/Dragonfly/pkg/errortypes"
+	"github.com/Dragonfly/pkg/constants"
+	"github.com/Dragonfly/pkg/errortypes"
 )
 
 // ResultInfo identify a struct that will be returned to the client.

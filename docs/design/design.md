@@ -30,15 +30,15 @@ For a program, a well-designed API is very important, we design the APIs with pr
 - Provide APIs that cover the full process life cycle. Now we've just exposed the APIs required by the core process, and we'll add a more appropriate APIs as needed later.
 - Use resources as the heart of the API, but they do not have to correspond to an actual data object one-by-one. `E.g.` Tasks are resources used by a client to operate, DfgetTasks are for internal implementation which should not be exposed to client.
 - URLs should include nouns, not verbs. In additional, use plural nouns instead of singular nouns. `E.g.` `/peers/{id}: GET`.
-- Use HTTP response status codes to represent the outcome of operations on resources. Please refer to [linker](https://github.com/dragonflyoss/Dragonfly/blob/master/apis/swagger.yml#L793).
+- Use HTTP response status codes to represent the outcome of operations on resources. Please refer to [linker](https://github.com/Dragonfly/blob/master/apis/swagger.yml#L793).
 - Avoid URL's path level is too deep, we try not to have URLs deeper than `resource/identifier/resource`, the deepest URL in our APIs is `/tasks/{id}/pieces/{pieceRange}` because of special circumstances.
 - Well-documented, we organize the API with swagger and keep the API synchronized with the documentation through swagger generation tools.
 
 ### Reference Docs
 
-API definition: [swagger.yml](https://github.com/dragonflyoss/Dragonfly/blob/master/apis/swagger.yml)
+API definition: [swagger.yml](https://github.com/Dragonfly/blob/master/apis/swagger.yml)
 
-API document: [apis.md](https://github.com/dragonflyoss/Dragonfly/blob/master/docs/api_reference/apis.md)
+API document: [apis.md](https://github.com/Dragonfly/blob/master/docs/api_reference/apis.md)
 
 ## Architecture
 

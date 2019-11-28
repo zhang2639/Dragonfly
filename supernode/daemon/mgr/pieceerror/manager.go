@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/dragonflyoss/Dragonfly/apis/types"
-	"github.com/dragonflyoss/Dragonfly/pkg/errortypes"
-	"github.com/dragonflyoss/Dragonfly/pkg/syncmap"
-	"github.com/dragonflyoss/Dragonfly/supernode/config"
-	"github.com/dragonflyoss/Dragonfly/supernode/daemon/mgr"
+	"github.com/Dragonfly/apis/types"
+	"github.com/Dragonfly/pkg/errortypes"
+	"github.com/Dragonfly/pkg/syncmap"
+	"github.com/Dragonfly/supernode/config"
+	"github.com/Dragonfly/supernode/daemon/mgr"
 
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

@@ -21,12 +21,12 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/dragonflyoss/Dragonfly/apis/types"
-	"github.com/dragonflyoss/Dragonfly/pkg/digest"
-	"github.com/dragonflyoss/Dragonfly/pkg/stringutils"
-	"github.com/dragonflyoss/Dragonfly/supernode/config"
-	"github.com/dragonflyoss/Dragonfly/supernode/store"
-	"github.com/dragonflyoss/Dragonfly/supernode/util"
+	"github.com/Dragonfly/apis/types"
+	"github.com/Dragonfly/pkg/digest"
+	"github.com/Dragonfly/pkg/stringutils"
+	"github.com/Dragonfly/supernode/config"
+	"github.com/Dragonfly/supernode/store"
+	"github.com/Dragonfly/supernode/util"
 
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

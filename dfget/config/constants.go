@@ -19,7 +19,7 @@ package config
 import (
 	"time"
 
-	"github.com/dragonflyoss/Dragonfly/pkg/rate"
+	"github.com/Dragonfly/pkg/rate"
 )
 
 /* the reason of backing to source */

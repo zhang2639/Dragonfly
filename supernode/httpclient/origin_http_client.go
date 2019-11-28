@@ -27,9 +27,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dragonflyoss/Dragonfly/pkg/errortypes"
-	"github.com/dragonflyoss/Dragonfly/pkg/netutils"
-	"github.com/dragonflyoss/Dragonfly/pkg/stringutils"
+	"github.com/Dragonfly/pkg/errortypes"
+	"github.com/Dragonfly/pkg/netutils"
+	"github.com/Dragonfly/pkg/stringutils"
 
 	strfmt "github.com/go-openapi/strfmt"
 	"github.com/pkg/errors"

@@ -30,10 +30,10 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/dragonflyoss/Dragonfly/dfget/config"
-	"github.com/dragonflyoss/Dragonfly/dfget/core/api"
-	"github.com/dragonflyoss/Dragonfly/pkg/httputils"
-	"github.com/dragonflyoss/Dragonfly/pkg/queue"
+	"github.com/Dragonfly/dfget/config"
+	"github.com/Dragonfly/dfget/core/api"
+	"github.com/Dragonfly/pkg/httputils"
+	"github.com/Dragonfly/pkg/queue"
 
 	"github.com/sirupsen/logrus"
 )

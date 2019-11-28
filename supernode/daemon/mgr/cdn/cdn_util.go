@@ -19,8 +19,8 @@ package cdn
 import (
 	"fmt"
 
-	"github.com/dragonflyoss/Dragonfly/apis/types"
-	"github.com/dragonflyoss/Dragonfly/pkg/timeutils"
+	"github.com/Dragonfly/apis/types"
+	"github.com/Dragonfly/pkg/timeutils"
 )
 
 var getCurrentTimeMillisFunc = timeutils.GetCurrentTimeMillis

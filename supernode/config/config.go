@@ -22,9 +22,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dragonflyoss/Dragonfly/pkg/dflog"
-	"github.com/dragonflyoss/Dragonfly/pkg/fileutils"
-	"github.com/dragonflyoss/Dragonfly/pkg/rate"
+	"github.com/Dragonfly/pkg/dflog"
+	"github.com/Dragonfly/pkg/fileutils"
+	"github.com/Dragonfly/pkg/rate"
 
 	"gopkg.in/yaml.v2"
 )

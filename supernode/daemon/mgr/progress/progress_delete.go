@@ -19,7 +19,7 @@ package progress
 import (
 	"context"
 
-	"github.com/dragonflyoss/Dragonfly/pkg/errortypes"
+	"github.com/Dragonfly/pkg/errortypes"
 
 	"github.com/sirupsen/logrus"
 )

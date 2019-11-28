@@ -22,9 +22,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/dragonflyoss/Dragonfly/dfget/config"
-	"github.com/dragonflyoss/Dragonfly/pkg/httputils"
-	"github.com/dragonflyoss/Dragonfly/version"
+	"github.com/Dragonfly/dfget/config"
+	"github.com/Dragonfly/pkg/httputils"
+	"github.com/Dragonfly/version"
 )
 
 // DownloadRequest wraps the request which is sent to peer

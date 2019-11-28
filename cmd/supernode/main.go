@@ -17,7 +17,7 @@
 package main
 
 import (
-	"github.com/dragonflyoss/Dragonfly/cmd/supernode/app"
+	"github.com/Dragonfly/cmd/supernode/app"
 )
 
 func main() {

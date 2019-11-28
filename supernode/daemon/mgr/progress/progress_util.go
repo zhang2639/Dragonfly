@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/dragonflyoss/Dragonfly/pkg/atomiccount"
-	"github.com/dragonflyoss/Dragonfly/pkg/errortypes"
-	"github.com/dragonflyoss/Dragonfly/pkg/stringutils"
-	"github.com/dragonflyoss/Dragonfly/pkg/syncmap"
-	"github.com/dragonflyoss/Dragonfly/supernode/config"
+	"github.com/Dragonfly/pkg/atomiccount"
+	"github.com/Dragonfly/pkg/errortypes"
+	"github.com/Dragonfly/pkg/stringutils"
+	"github.com/Dragonfly/pkg/syncmap"
+	"github.com/Dragonfly/supernode/config"
 
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

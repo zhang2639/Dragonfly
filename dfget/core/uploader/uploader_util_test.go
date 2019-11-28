@@ -23,8 +23,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/dragonflyoss/Dragonfly/dfget/config"
-	"github.com/dragonflyoss/Dragonfly/version"
+	"github.com/Dragonfly/dfget/config"
+	"github.com/Dragonfly/version"
 
 	"github.com/go-check/check"
 	"github.com/gorilla/mux"

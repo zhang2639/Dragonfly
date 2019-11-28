@@ -11,14 +11,14 @@ All steps in this document are done on the same machine using the docker contain
 ## Step 1: Deploy Dragonfly Server (SuperNode)
 
 ```bash
-docker run -d --name supernode --restart=always -p 8001:8001 -p 8002:8002 -v /home/admin/supernode:/home/admin/supernode dragonflyoss/supernode:0.4.3
+docker run -d --name supernode --restart=always -p 8001:8001 -p 8002:8002 -v /home/admin/supernode:/home/admin/supernode supernode:0.4.3
 ```
 
 ## Step 2: Deploy Dragonfly Client (dfclient)
 
 ```bash
 SUPERNODE_IP=`docker inspect supernode -f '{{.NetworkSettings.Networks.bridge.IPAddress}}'`
-docker run -d --name dfclient --restart=always -p 65001:65001 -v $HOME/.small-dragonfly:/root/.small-dragonfly dragonflyoss/dfclient:0.4.3 --registry https://index.docker.io --node $SUPERNODE_IP
+docker run -d --name dfclient --restart=always -p 65001:65001 -v $HOME/.small-dragonfly:/root/.small-dragonfly dfclient:0.4.3 --registry https://index.docker.io --node $SUPERNODE_IP
 ```
 
 **NOTE**:

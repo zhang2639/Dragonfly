@@ -27,10 +27,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dragonflyoss/Dragonfly/apis/types"
-	"github.com/dragonflyoss/Dragonfly/pkg/httputils"
-	"github.com/dragonflyoss/Dragonfly/supernode/config"
-	"github.com/dragonflyoss/Dragonfly/version"
+	"github.com/Dragonfly/apis/types"
+	"github.com/Dragonfly/pkg/httputils"
+	"github.com/Dragonfly/supernode/config"
+	"github.com/Dragonfly/version"
 
 	"github.com/go-check/check"
 	"github.com/gorilla/mux"

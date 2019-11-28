@@ -21,7 +21,7 @@ import (
 	// pprof will inject handlers for users to profile this program
 	_ "net/http/pprof"
 
-	"github.com/dragonflyoss/Dragonfly/version"
+	"github.com/Dragonfly/version"
 
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )

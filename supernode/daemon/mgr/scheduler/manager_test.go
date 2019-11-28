@@ -22,9 +22,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/dragonflyoss/Dragonfly/pkg/syncmap"
-	"github.com/dragonflyoss/Dragonfly/supernode/config"
-	"github.com/dragonflyoss/Dragonfly/supernode/daemon/mgr/mock"
+	"github.com/Dragonfly/pkg/syncmap"
+	"github.com/Dragonfly/supernode/config"
+	"github.com/Dragonfly/supernode/daemon/mgr/mock"
 
 	"github.com/go-check/check"
 	"github.com/golang/mock/gomock"

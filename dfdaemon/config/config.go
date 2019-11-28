@@ -25,10 +25,10 @@ import (
 	"path/filepath"
 	"regexp"
 
-	"github.com/dragonflyoss/Dragonfly/dfdaemon/constant"
-	"github.com/dragonflyoss/Dragonfly/pkg/dflog"
-	dferr "github.com/dragonflyoss/Dragonfly/pkg/errortypes"
-	"github.com/dragonflyoss/Dragonfly/pkg/rate"
+	"github.com/Dragonfly/dfdaemon/constant"
+	"github.com/Dragonfly/pkg/dflog"
+	dferr "github.com/Dragonfly/pkg/errortypes"
+	"github.com/Dragonfly/pkg/rate"
 
 	"github.com/pkg/errors"
 	"github.com/spf13/afero"

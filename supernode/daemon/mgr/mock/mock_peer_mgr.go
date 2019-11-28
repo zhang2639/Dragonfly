@@ -10,8 +10,8 @@ import (
 
 	gomock "github.com/golang/mock/gomock"
 
-	types "github.com/dragonflyoss/Dragonfly/apis/types"
-	util "github.com/dragonflyoss/Dragonfly/supernode/daemon/util"
+	types "github.com/Dragonfly/apis/types"
+	util "github.com/Dragonfly/supernode/daemon/util"
 )
 
 // MockPeerMgr is a mock of PeerMgr interface

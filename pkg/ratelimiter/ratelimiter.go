@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dragonflyoss/Dragonfly/pkg/util"
+	"github.com/Dragonfly/pkg/util"
 )
 
 // RateLimiter is used for limiting the rate of transporting.

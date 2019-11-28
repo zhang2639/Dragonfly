@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dragonflyoss/Dragonfly/pkg/constants"
+	"github.com/Dragonfly/pkg/constants"
 
 	"github.com/go-check/check"
 )

@@ -20,12 +20,12 @@ import (
 	"context"
 	"hash"
 
-	"github.com/dragonflyoss/Dragonfly/apis/types"
-	"github.com/dragonflyoss/Dragonfly/pkg/fileutils"
-	"github.com/dragonflyoss/Dragonfly/pkg/stringutils"
-	"github.com/dragonflyoss/Dragonfly/supernode/config"
-	"github.com/dragonflyoss/Dragonfly/supernode/daemon/mgr"
-	"github.com/dragonflyoss/Dragonfly/supernode/store"
+	"github.com/Dragonfly/apis/types"
+	"github.com/Dragonfly/pkg/fileutils"
+	"github.com/Dragonfly/pkg/stringutils"
+	"github.com/Dragonfly/supernode/config"
+	"github.com/Dragonfly/supernode/daemon/mgr"
+	"github.com/Dragonfly/supernode/store"
 
 	"github.com/sirupsen/logrus"
 )

@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/dragonflyoss/Dragonfly/dfget/config"
-	"github.com/dragonflyoss/Dragonfly/pkg/fileutils"
-	"github.com/dragonflyoss/Dragonfly/pkg/queue"
+	"github.com/Dragonfly/dfget/config"
+	"github.com/Dragonfly/pkg/fileutils"
+	"github.com/Dragonfly/pkg/queue"
 
 	"github.com/sirupsen/logrus"
 )

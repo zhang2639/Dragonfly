@@ -17,7 +17,7 @@
 package fileutils
 
 import (
-	"github.com/dragonflyoss/Dragonfly/pkg/errortypes"
+	"github.com/Dragonfly/pkg/errortypes"
 
 	"github.com/go-check/check"
 	"gopkg.in/yaml.v2"

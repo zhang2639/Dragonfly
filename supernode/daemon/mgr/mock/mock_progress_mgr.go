@@ -10,9 +10,9 @@ import (
 
 	gomock "github.com/golang/mock/gomock"
 
-	types "github.com/dragonflyoss/Dragonfly/apis/types"
-	syncmap "github.com/dragonflyoss/Dragonfly/pkg/syncmap"
-	mgr "github.com/dragonflyoss/Dragonfly/supernode/daemon/mgr"
+	types "github.com/Dragonfly/apis/types"
+	syncmap "github.com/Dragonfly/pkg/syncmap"
+	mgr "github.com/Dragonfly/supernode/daemon/mgr"
 )
 
 // MockProgressMgr is a mock of ProgressMgr interface

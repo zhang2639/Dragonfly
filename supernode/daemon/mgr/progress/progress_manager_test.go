@@ -19,7 +19,7 @@ package progress
 import (
 	"testing"
 
-	"github.com/dragonflyoss/Dragonfly/pkg/errortypes"
+	"github.com/Dragonfly/pkg/errortypes"
 
 	"github.com/go-check/check"
 	"github.com/willf/bitset"

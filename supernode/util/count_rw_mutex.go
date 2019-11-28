@@ -19,7 +19,7 @@ package util
 import (
 	"sync"
 
-	"github.com/dragonflyoss/Dragonfly/pkg/atomiccount"
+	"github.com/Dragonfly/pkg/atomiccount"
 )
 
 type countRWMutex struct {

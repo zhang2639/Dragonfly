@@ -1,9 +1,9 @@
 FROM golang:1.12.10-alpine as builder
 
-WORKDIR /go/src/github.com/dragonflyoss/Dragonfly
+WORKDIR /go/src/github.com/Dragonfly
 RUN apk --no-cache add bash make gcc libc-dev git
 
-COPY . /go/src/github.com/dragonflyoss/Dragonfly
+COPY . /go/src/github.com/Dragonfly
 
 # make build dfdaemon and dfget.
 # write the resulting executable to the dir /opt/dragonfly/df-client.

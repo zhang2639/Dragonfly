@@ -23,7 +23,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/dragonflyoss/Dragonfly/pkg/util"
+	"github.com/Dragonfly/pkg/util"
 )
 
 // Queue blocking queue. The items putted into queue mustn't be nil.

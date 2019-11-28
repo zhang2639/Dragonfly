@@ -25,8 +25,8 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/dragonflyoss/Dragonfly/client"
-	"github.com/dragonflyoss/Dragonfly/test/environment"
+	"github.com/Dragonfly/client"
+	"github.com/Dragonfly/test/environment"
 )
 
 // Option defines a type used to update http.Request.

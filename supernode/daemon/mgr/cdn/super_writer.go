@@ -22,9 +22,9 @@ import (
 	"io"
 	"sync"
 
-	"github.com/dragonflyoss/Dragonfly/apis/types"
-	"github.com/dragonflyoss/Dragonfly/supernode/config"
-	"github.com/dragonflyoss/Dragonfly/supernode/store"
+	"github.com/Dragonfly/apis/types"
+	"github.com/Dragonfly/supernode/config"
+	"github.com/Dragonfly/supernode/store"
 
 	"github.com/sirupsen/logrus"
 )

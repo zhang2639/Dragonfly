@@ -22,8 +22,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/dragonflyoss/Dragonfly/client"
-	"github.com/dragonflyoss/Dragonfly/test/environment"
+	"github.com/Dragonfly/client"
+	"github.com/Dragonfly/test/environment"
 
 	"github.com/go-check/check"
 )

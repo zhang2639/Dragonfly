@@ -8,7 +8,7 @@ In Dragonfly project, there are two long-running processes: supernode and dfdaem
 
 ### Setup Dragonfly Environment
 
-First, please ensure you know how to setup Dragonfly environment. If you don't, you can check out this  [quick_start](https://github.com/dragonflyoss/Dragonfly/blob/master/docs/quick_start/README.md) docs first. Besides, building from source code is ok.
+First, please ensure you know how to setup Dragonfly environment. If you don't, you can check out this  [quick_start](https://github.com/Dragonfly/blob/master/docs/quick_start/README.md) docs first. Besides, building from source code is ok.
 
 ``` bash
 make build
@@ -122,7 +122,7 @@ Sometimes maybe you want to add your own metrics to Dragonfly. First please ensu
 We provide several functions to add metrics easily. Here is an example to add a Counter type metric.
 
 ``` go
-import "github.com/dragonflyoss/Dragonfly/pkg/util"
+import "github.com/Dragonfly/pkg/util"
 
 requestCounter := util.NewCounter("supernode", "http_requests_total",
 			"Counter of HTTP requests.", []string{"code"}, nil)

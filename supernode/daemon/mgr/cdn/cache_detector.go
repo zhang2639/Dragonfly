@@ -19,10 +19,10 @@ package cdn
 import (
 	"context"
 
-	"github.com/dragonflyoss/Dragonfly/apis/types"
-	"github.com/dragonflyoss/Dragonfly/pkg/stringutils"
-	"github.com/dragonflyoss/Dragonfly/supernode/httpclient"
-	"github.com/dragonflyoss/Dragonfly/supernode/store"
+	"github.com/Dragonfly/apis/types"
+	"github.com/Dragonfly/pkg/stringutils"
+	"github.com/Dragonfly/supernode/httpclient"
+	"github.com/Dragonfly/supernode/store"
 
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

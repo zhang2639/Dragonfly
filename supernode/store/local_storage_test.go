@@ -27,10 +27,10 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/dragonflyoss/Dragonfly/pkg/fileutils"
-	statutils "github.com/dragonflyoss/Dragonfly/pkg/stat"
-	"github.com/dragonflyoss/Dragonfly/supernode/config"
-	"github.com/dragonflyoss/Dragonfly/supernode/plugins"
+	"github.com/Dragonfly/pkg/fileutils"
+	statutils "github.com/Dragonfly/pkg/stat"
+	"github.com/Dragonfly/supernode/config"
+	"github.com/Dragonfly/supernode/plugins"
 
 	"github.com/go-check/check"
 )

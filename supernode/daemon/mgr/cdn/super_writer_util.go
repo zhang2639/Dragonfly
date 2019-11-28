@@ -24,9 +24,9 @@ import (
 	"hash"
 	"sync"
 
-	"github.com/dragonflyoss/Dragonfly/pkg/fileutils"
-	"github.com/dragonflyoss/Dragonfly/supernode/config"
-	"github.com/dragonflyoss/Dragonfly/supernode/store"
+	"github.com/Dragonfly/pkg/fileutils"
+	"github.com/Dragonfly/supernode/config"
+	"github.com/Dragonfly/supernode/store"
 
 	"github.com/sirupsen/logrus"
 )

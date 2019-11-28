@@ -30,8 +30,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dragonflyoss/Dragonfly/pkg/errortypes"
-	"github.com/dragonflyoss/Dragonfly/pkg/util"
+	"github.com/Dragonfly/pkg/errortypes"
+	"github.com/Dragonfly/pkg/util"
 
 	"github.com/pkg/errors"
 	"github.com/valyala/fasthttp"

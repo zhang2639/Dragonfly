@@ -21,7 +21,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/dragonflyoss/Dragonfly/dfdaemon/config"
+	"github.com/Dragonfly/dfdaemon/config"
 	"github.com/stretchr/testify/assert"
 )
 

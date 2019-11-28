@@ -19,10 +19,10 @@ package app
 import (
 	"path/filepath"
 
-	"github.com/dragonflyoss/Dragonfly/dfget/config"
-	"github.com/dragonflyoss/Dragonfly/dfget/core/uploader"
-	"github.com/dragonflyoss/Dragonfly/pkg/dflog"
-	"github.com/dragonflyoss/Dragonfly/pkg/printer"
+	"github.com/Dragonfly/dfget/config"
+	"github.com/Dragonfly/dfget/core/uploader"
+	"github.com/Dragonfly/pkg/dflog"
+	"github.com/Dragonfly/pkg/printer"
 
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"

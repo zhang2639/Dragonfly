@@ -27,8 +27,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/dragonflyoss/Dragonfly/apis/types"
-	"github.com/dragonflyoss/Dragonfly/pkg/metricsutils"
+	"github.com/Dragonfly/apis/types"
+	"github.com/Dragonfly/pkg/metricsutils"
 
 	"github.com/prometheus/client_golang/prometheus"
 )

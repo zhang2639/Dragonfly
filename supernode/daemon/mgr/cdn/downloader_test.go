@@ -24,11 +24,11 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/dragonflyoss/Dragonfly/pkg/errortypes"
-	"github.com/dragonflyoss/Dragonfly/pkg/httputils"
-	"github.com/dragonflyoss/Dragonfly/pkg/stringutils"
-	"github.com/dragonflyoss/Dragonfly/supernode/config"
-	"github.com/dragonflyoss/Dragonfly/supernode/httpclient"
+	"github.com/Dragonfly/pkg/errortypes"
+	"github.com/Dragonfly/pkg/httputils"
+	"github.com/Dragonfly/pkg/stringutils"
+	"github.com/Dragonfly/supernode/config"
+	"github.com/Dragonfly/supernode/httpclient"
 
 	"github.com/go-check/check"
 	"github.com/prometheus/client_golang/prometheus"

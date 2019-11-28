@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dragonflyoss/Dragonfly/pkg/rate"
+	"github.com/Dragonfly/pkg/rate"
 
 	"github.com/go-check/check"
 )
@@ -146,7 +146,7 @@ func (suite *NetUtilSuite) TestIsValidURL(c *check.C) {
 		"a.b":                   true,
 		"www.taobao.com":        true,
 		"http:/www.a.b.com":     false,
-		"https://github.com/dragonflyoss/Dragonfly/issues?" +
+		"https://github.com/Dragonfly/issues?" +
 			"q=is%3Aissue+is%3Aclosed": true,
 	}
 

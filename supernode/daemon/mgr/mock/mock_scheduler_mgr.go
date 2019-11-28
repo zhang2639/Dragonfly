@@ -10,7 +10,7 @@ import (
 
 	gomock "github.com/golang/mock/gomock"
 
-	mgr "github.com/dragonflyoss/Dragonfly/supernode/daemon/mgr"
+	mgr "github.com/Dragonfly/supernode/daemon/mgr"
 )
 
 // MockSchedulerMgr is a mock of SchedulerMgr interface

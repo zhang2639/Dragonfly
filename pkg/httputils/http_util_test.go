@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dragonflyoss/Dragonfly/pkg/errortypes"
+	"github.com/Dragonfly/pkg/errortypes"
 
 	"github.com/go-check/check"
 	"github.com/valyala/fasthttp"

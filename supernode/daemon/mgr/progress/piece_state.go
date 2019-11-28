@@ -17,9 +17,9 @@
 package progress
 
 import (
-	"github.com/dragonflyoss/Dragonfly/pkg/errortypes"
-	"github.com/dragonflyoss/Dragonfly/pkg/stringutils"
-	"github.com/dragonflyoss/Dragonfly/pkg/syncmap"
+	"github.com/Dragonfly/pkg/errortypes"
+	"github.com/Dragonfly/pkg/stringutils"
+	"github.com/Dragonfly/pkg/syncmap"
 
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

@@ -22,8 +22,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/dragonflyoss/Dragonfly/apis/types"
-	"github.com/dragonflyoss/Dragonfly/supernode/store"
+	"github.com/Dragonfly/apis/types"
+	"github.com/Dragonfly/supernode/store"
 
 	"github.com/go-check/check"
 	"github.com/prashantv/gostub"

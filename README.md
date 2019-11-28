@@ -1,18 +1,18 @@
 # Dragonfly
 
 [![Join the chat at https://gitter.im/alibaba/Dragonfly](https://badges.gitter.im/alibaba/Dragonfly.svg)](https://gitter.im/alibaba/Dragonfly?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![License](https://img.shields.io/badge/license-Apache%202-brightgreen.svg)](https://github.com/dragonflyoss/Dragonfly/blob/master/LICENSE)
+[![License](https://img.shields.io/badge/license-Apache%202-brightgreen.svg)](https://github.com/Dragonfly/blob/master/LICENSE)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdragonflyoss%2FDragonfly.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdragonflyoss%2FDragonfly?ref=badge_shield)
-[![GoDoc](https://godoc.org/github.com/dragonflyoss/Dragonfly?status.svg)](https://godoc.org/github.com/dragonflyoss/Dragonfly)
+[![GoDoc](https://godoc.org/github.com/Dragonfly?status.svg)](https://godoc.org/github.com/Dragonfly)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2562/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2562)
-[![Go Report Card](https://goreportcard.com/badge/github.com/dragonflyoss/Dragonfly)](https://goreportcard.com/report/github.com/dragonflyoss/Dragonfly)
-[![Build Status](https://travis-ci.org/dragonflyoss/Dragonfly.svg?branch=master)](https://travis-ci.org/dragonflyoss/Dragonfly)
-[![CircleCI](https://circleci.com/gh/dragonflyoss/Dragonfly.svg?style=svg)](https://circleci.com/gh/dragonflyoss/Dragonfly)
-[![codecov](https://codecov.io/gh/dragonflyoss/Dragonfly/branch/master/graph/badge.svg)](https://codecov.io/gh/dragonflyoss/Dragonfly)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Dragonfly)](https://goreportcard.com/report/github.com/Dragonfly)
+[![Build Status](https://travis-ci.org/Dragonfly.svg?branch=master)](https://travis-ci.org/Dragonfly)
+[![CircleCI](https://circleci.com/gh/Dragonfly.svg?style=svg)](https://circleci.com/gh/Dragonfly)
+[![codecov](https://codecov.io/gh/Dragonfly/branch/master/graph/badge.svg)](https://codecov.io/gh/Dragonfly)
 
 ![Dragonfly](docs/images/logo/dragonfly-linear.png)
 
-> Note: The `master` branch may be in an unstable or even broken state during development. Please use [releases](https://github.com/dragonflyoss/Dragonfly/releases) instead of the `master` branch in order to get stable binaries.
+> Note: The `master` branch may be in an unstable or even broken state during development. Please use [releases](https://github.com/Dragonfly/releases) instead of the `master` branch in order to get stable binaries.
 
 ## Contents
 

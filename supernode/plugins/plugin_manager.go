@@ -19,7 +19,7 @@ package plugins
 import (
 	"sync"
 
-	"github.com/dragonflyoss/Dragonfly/supernode/config"
+	"github.com/Dragonfly/supernode/config"
 )
 
 // NewManager creates a default plugin manager instant.

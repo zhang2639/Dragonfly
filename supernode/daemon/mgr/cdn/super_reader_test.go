@@ -21,7 +21,7 @@ import (
 	"crypto/md5"
 	"encoding/binary"
 
-	"github.com/dragonflyoss/Dragonfly/pkg/fileutils"
+	"github.com/Dragonfly/pkg/fileutils"
 
 	"github.com/go-check/check"
 )

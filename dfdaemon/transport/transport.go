@@ -29,8 +29,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	"github.com/dragonflyoss/Dragonfly/dfdaemon/downloader"
-	"github.com/dragonflyoss/Dragonfly/dfdaemon/exception"
+	"github.com/Dragonfly/dfdaemon/downloader"
+	"github.com/Dragonfly/dfdaemon/exception"
 )
 
 var (
