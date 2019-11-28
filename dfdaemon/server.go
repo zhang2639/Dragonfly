@@ -34,7 +34,7 @@ import (
 
 // Server represents the dfdaemon server.
 type Server struct {
-	server *http.Server
+	server *http.Server //server.Handler——handler to invoke, http.DefaultServeMux if nil
 	proxy  *proxy.Proxy
 }
 
@@ -117,7 +117,7 @@ func NewFromConfig(cfg config.Properties) (*Server, error) {
 
 // Start runs dfdaemon's http server.
 func (s *Server) Start() error {
-	_ = proxy.WithDirectHandler(handler.New())(s.proxy)
+	_ = proxy.WithDirectHandler(handler.New())(s.proxy) //给s.proxy 添加handler属性
 	s.server.Handler = s.proxy
 	if s.server.TLSConfig != nil {
 		logrus.Infof("start dfdaemon https server on %s", s.server.Addr)

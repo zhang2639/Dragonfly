@@ -224,7 +224,7 @@ func (proxy *Proxy) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 }
 
 func (proxy *Proxy) handleHTTP(w http.ResponseWriter, req *http.Request) {
-	resp, err := proxy.roundTripper(nil).RoundTrip(req)
+	resp, err := proxy.roundTripper(nil).RoundTrip(req) //具体下载文件
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusServiceUnavailable)
 		return
@@ -255,7 +255,7 @@ func (proxy *Proxy) shouldUseDfget(req *http.Request) bool {
 	}
 
 	for _, rule := range proxy.rules {
-		if rule.Match(req.URL.String()) {
+		if rule.Match(req.URL.String()) { //这里判断http请求的url是否跟之前设置的rules相同，如果相同，则用Redirect 替换host  即请求网址http://index.docker.io/v2/blobs/sha256/xxx，包含blobs/sha256规则，则重定向
 			if rule.UseHTTPS {
 				req.URL.Scheme = "https"
 			}

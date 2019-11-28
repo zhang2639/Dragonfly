@@ -52,7 +52,7 @@ type DFRoundTripper struct {
 func New(opts ...Option) (*DFRoundTripper, error) {
 	rt := &DFRoundTripper{
 		Round:          defaultHTTPTransport(nil),
-		Round2:         http.NewFileTransport(http.Dir("/")),
+		Round2:         http.NewFileTransport(http.Dir("/")), //该函数返回一个RoundTripper接口，服务指定的文件系统
 		ShouldUseDfget: NeedUseGetter,
 	}
 
@@ -128,7 +128,7 @@ func (roundTripper *DFRoundTripper) RoundTrip(req *http.Request) (*http.Response
 	logrus.Debugf("round trip directly: %s %s", req.Method, req.URL.String())
 	req.Host = req.URL.Host
 	req.Header.Set("Host", req.Host)
-	res, err := roundTripper.Round.RoundTrip(req)
+	res, err := roundTripper.Round.RoundTrip(req) //没有代理 正常下载
 	return res, err
 }
 
@@ -141,7 +141,7 @@ func (roundTripper *DFRoundTripper) download(req *http.Request, urlString string
 	}
 	defer os.Remove(dstPath)
 
-	fileReq, err := http.NewRequest("GET", "file:///"+dstPath, nil)
+	fileReq, err := http.NewRequest("GET", "file:///"+dstPath, nil) //对下载下来的在本地的文件进行请求
 	if err != nil {
 		return nil, err
 	}

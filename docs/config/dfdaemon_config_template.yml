@@ -51,14 +51,13 @@ dfget_flags: ["--node","192.168.33.21","--verbose","--ip","192.168.33.23",
 
 # Specify the addresses(host:port) of supernodes, it is just to be compatible with previous versions
 supernodes:
-    - 127.0.0.1
-    - 10.10.10.1
+    - 127.0.0.1:8080
 
 # Net speed limit,format:xxxM/K
 ratelimit: 20M
 
 # Temp output dir of dfdaemon, it must be an absolute path. and the default value is `$HOME/.small-dragonfly/dfdaemon/data/`
-localrepo: /home/admin/.small-dragonfly/dfdaemon/data/
+localrepo: /home/zhang/.small-dragonfly/dfdaemon/data/
 
 # dfget path, which is the relative file path for the dfdaemon
 dfpath: ./dfget

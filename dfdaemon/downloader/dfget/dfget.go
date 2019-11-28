@@ -46,7 +46,7 @@ func NewGetter(cfg config.DFGetConfig) *DFGetter {
 // DownloadContext downloads the resources as specified in url.
 func (dfGetter *DFGetter) DownloadContext(ctx context.Context, url string, header map[string][]string, name string) (string, error) {
 	startTime := time.Now()
-	dstPath := filepath.Join(dfGetter.config.DFRepo, name)
+	dstPath := filepath.Join(dfGetter.config.DFRepo, name) //localrepo + name  去本地的data目录下面
 	cmd := dfGetter.getCommand(ctx, url, header, dstPath)
 	err := cmd.Run()
 	if cmd.ProcessState.Success() {
