@@ -51,7 +51,7 @@ dfget_flags: ["--node","192.168.33.21","--verbose","--ip","192.168.33.23",
 
 # Specify the addresses(host:port) of supernodes, it is just to be compatible with previous versions
 supernodes:
-    - 127.0.0.1:8080
+    - 192.168.204.129:8080
 
 # Net speed limit,format:xxxM/K
 ratelimit: 20M

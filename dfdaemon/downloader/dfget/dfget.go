@@ -23,12 +23,13 @@ import (
 	"os/exec"
 	"path/filepath"
 	"strings"
-	"syscall"
+	//"syscall"
 	"time"
+	"net/http"
 
 	"github.com/Dragonfly/dfdaemon/config"
-	"github.com/Dragonfly/dfdaemon/constant"
-	"github.com/Dragonfly/dfdaemon/exception"
+	//"github.com/Dragonfly/dfdaemon/constant"
+	//"github.com/Dragonfly/dfdaemon/exception"
 
 	log "github.com/sirupsen/logrus"
 )
@@ -47,6 +48,26 @@ func NewGetter(cfg config.DFGetConfig) *DFGetter {
 func (dfGetter *DFGetter) DownloadContext(ctx context.Context, url string, header map[string][]string, name string) (string, error) {
 	startTime := time.Now()
 	dstPath := filepath.Join(dfGetter.config.DFRepo, name) //localrepo + name  去本地的data目录下面
+	
+	client := &http.Client{}
+	req, err := http.NewRequest("GET", "http://" + dfGetter.config.SuperNodes[0] + "/checkout", nil)
+	if err != nil {
+		return "", fmt.Errorf("dfget fail of NewRequestcheckout:%v", err)
+	}
+
+	q := req.URL.Query()
+	index := strings.Index(url, "sha256")
+	q.Add("uuid", url[(index + 7):])
+	q.Add("path", dstPath)
+	req.URL.RawQuery = q.Encode()
+	fmt.Println(req.URL.String())
+	_, err = client.Do(req)
+	if err != nil {
+		return "", fmt.Errorf("dfget fail(%s):%v", url[(index + 7):], err)
+	}
+	log.Infof("dfget url:%s [SUCCESS] cost:%.3fs", url, time.Since(startTime).Seconds())
+	return dstPath, nil
+/*
 	cmd := dfGetter.getCommand(ctx, url, header, dstPath)
 	err := cmd.Run()
 	if cmd.ProcessState.Success() {
@@ -59,6 +80,7 @@ func (dfGetter *DFGetter) DownloadContext(ctx context.Context, url string, heade
 		}
 	}
 	return "", fmt.Errorf("dfget fail(%s):%v", cmd.ProcessState.String(), err)
+*/
 }
 
 // getCommand returns the command to download the given resource.
