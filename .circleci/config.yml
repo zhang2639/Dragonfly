@@ -11,7 +11,7 @@ jobs:
       # this image is built from Dockerfile
       # https://github.com/pouchcontainer/pouchlinter/blob/master/Dockerfile
       - image: pouchcontainer/pouchlinter:v0.2.4
-    working_directory: /go/src/github.com/dragonflyoss/Dragonfly
+    working_directory: /go/src/github.com/Dragonfly
     steps:
       - checkout
       - go/load-cache
@@ -23,7 +23,7 @@ jobs:
           name: use markdown-link-check(https://github.com/tcort/markdown-link-check) to check links in markdown files
           command: |
             set +e
-            curl -OfsSL https://raw.githubusercontent.com/dragonflyoss/dragonfly-scripts/master/config/markdown-link-check-scripts.json
+            curl -OfsSL https://raw.githubusercontent.com/dragonfly-scripts/master/config/markdown-link-check-scripts.json
             for name in $(find . -name \*.md | grep -v CHANGELOG); do
               if [ -f $name ]; then
                 markdown-link-check -q -v -c ./markdown-link-check-scripts.json $name;
@@ -48,7 +48,7 @@ jobs:
       - run:
           name: validate swagger.yml
           command: |
-            swagger validate "/go/src/github.com/dragonflyoss/Dragonfly/apis/swagger.yml"
+            swagger validate "/go/src/github.com/Dragonfly/apis/swagger.yml"
       - run:
           name: use golangci-lint to check gocode of this project.
           command: |
@@ -62,7 +62,7 @@ jobs:
   unit-test-golang:
     docker:
       - image: circleci/golang:1.12.10
-    working_directory: /go/src/github.com/dragonflyoss/Dragonfly
+    working_directory: /go/src/github.com/Dragonfly
     steps:
       - checkout
       - go/load-cache
@@ -84,7 +84,7 @@ jobs:
   api-integration-test:
     docker:
       - image: circleci/golang:1.12.10
-    working_directory: /go/src/github.com/dragonflyoss/Dragonfly
+    working_directory: /go/src/github.com/Dragonfly
     steps:
       - checkout
       - go/load-cache
@@ -100,7 +100,7 @@ jobs:
   release:
     docker:
       - image: circleci/golang:1.12.10
-    working_directory: /go/src/github.com/dragonflyoss/Dragonfly
+    working_directory: /go/src/github.com/Dragonfly
     steps:
       - checkout
       - go/load-cache
@@ -115,7 +115,7 @@ jobs:
   publish-images:
     docker:
       - image: circleci/golang:1.12.10
-    working_directory: /go/src/github.com/dragonflyoss/Dragonfly
+    working_directory: /go/src/github.com/Dragonfly
     steps:
       - checkout
       - setup_remote_docker
@@ -126,14 +126,14 @@ jobs:
           name: push images
           command: |
             echo "$DOCKERHUB_PASS" | docker login -u "$DOCKERHUB_USERNAME" --password-stdin
-            docker tag dfclient:$DF_VERSION dragonflyoss/dfclient:$DF_VERSION
-            docker tag supernode:$DF_VERSION dragonflyoss/supernode:$DF_VERSION
-            docker tag dfclient:$DF_VERSION dragonflyoss/dfclient:latest
-            docker tag supernode:$DF_VERSION dragonflyoss/supernode:latest
-            docker push dragonflyoss/dfclient:$DF_VERSION
-            docker push dragonflyoss/supernode:$DF_VERSION
-            docker push dragonflyoss/dfclient:latest
-            docker push dragonflyoss/supernode:latest
+            docker tag dfclient:$DF_VERSION dfclient:$DF_VERSION
+            docker tag supernode:$DF_VERSION supernode:$DF_VERSION
+            docker tag dfclient:$DF_VERSION dfclient:latest
+            docker tag supernode:$DF_VERSION supernode:latest
+            docker push dfclient:$DF_VERSION
+            docker push supernode:$DF_VERSION
+            docker push dfclient:latest
+            docker push supernode:latest
       - go/save-cache
 
 workflows:
