@@ -24,6 +24,9 @@ import (
 	"os"
 	"regexp"
 	"time"
+	"bufio"
+    "compress/gzip"
+    "io"
 
 	"github.com/pborman/uuid"
 	"github.com/pkg/errors"
@@ -134,12 +137,40 @@ func (roundTripper *DFRoundTripper) RoundTrip(req *http.Request) (*http.Response
 
 // download uses dfget to download.
 func (roundTripper *DFRoundTripper) download(req *http.Request, urlString string) (*http.Response, error) {
-	dstPath, err := roundTripper.downloadByGetter(req.Context(), urlString, req.Header, uuid.New())
+	tmpPath, err := roundTripper.downloadByGetter(req.Context(), urlString, req.Header, uuid.New())
 	if err != nil {
 		logrus.Errorf("download fail: %v", err)
 		return nil, err
 	}
+	defer os.Remove(tmpPath)
+	File, err := os.Open(tmpPath)
+	if err != nil {
+		logrus.Errorf("open fail:%v", err)
+		return nil, err
+    }
+	defer File.Close()
+
+	dstPath := tmpPath + "z"
+	outfileWriter, err := os.Create(dstPath)
+	if err != nil {
+		logrus.Errorf("create fail:%v", err)
+		return nil, err
+	}
 	defer os.Remove(dstPath)
+	defer outfileWriter.Close()
+	bufWriter := bufio.NewWriterSize(outfileWriter, 32768)
+	compressor := gzip.NewWriter(bufWriter)
+	_, err = io.Copy(compressor, File)
+	if err == nil {
+		err = compressor.Close()
+	}
+	if err == nil {
+		err = bufWriter.Flush()
+	}
+	if err != nil {
+		logrus.Errorf("gzip fail:%v", err)
+		return nil, err
+	}
 
 	fileReq, err := http.NewRequest("GET", "file:///"+dstPath, nil) //对下载下来的在本地的文件进行请求
 	if err != nil {
