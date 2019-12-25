@@ -27,6 +27,7 @@ import (
 	"bufio"
     "compress/gzip"
     "io"
+    "strings"
 
 	"github.com/pborman/uuid"
 	"github.com/pkg/errors"
@@ -143,6 +144,20 @@ func (roundTripper *DFRoundTripper) download(req *http.Request, urlString string
 		return nil, err
 	}
 	defer os.Remove(tmpPath)
+	if strings.HasSuffix(tmpPath, "-cfg") {
+		fileReq, err := http.NewRequest("GET", "file:///"+tmpPath, nil) //对下载下来的在本地的文件进行请求
+		if err != nil {
+			return nil, err
+		}
+
+		response, err := roundTripper.Round2.RoundTrip(fileReq)
+		if err == nil {
+			response.Header.Set("Content-Disposition", "attachment; filename="+tmpPath)
+		} else {
+			logrus.Errorf("read response from file:%s error:%v", tmpPath, err)
+		}
+		return response, err
+	}
 	File, err := os.Open(tmpPath)
 	if err != nil {
 		logrus.Errorf("open fail:%v", err)

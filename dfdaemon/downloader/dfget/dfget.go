@@ -26,6 +26,7 @@ import (
 	//"syscall"
 	"time"
 	"net/http"
+	"io/ioutil"
 
 	"github.com/Dragonfly/dfdaemon/config"
 	//"github.com/Dragonfly/dfdaemon/constant"
@@ -33,7 +34,6 @@ import (
 
 	log "github.com/sirupsen/logrus"
 )
-
 // DFGetter implements Downloader to download file by dragonfly.
 type DFGetter struct {
 	config config.DFGetConfig
@@ -55,18 +55,24 @@ func (dfGetter *DFGetter) DownloadContext(ctx context.Context, url string, heade
 		return "", fmt.Errorf("dfget fail of NewRequestcheckout:%v", err)
 	}
 
+	req = req.WithContext(ctx)
 	q := req.URL.Query()
 	index := strings.Index(url, "sha256")
 	q.Add("uuid", url[(index + 7):])
 	q.Add("path", dstPath)
 	req.URL.RawQuery = q.Encode()
-	fmt.Println(req.URL.String())
-	_, err = client.Do(req)
+	//fmt.Println(req.URL.String())
+	resp, err := client.Do(req)
 	if err != nil {
 		return "", fmt.Errorf("dfget fail(%s):%v", url[(index + 7):], err)
 	}
+	body, err := ioutil.ReadAll(resp.Body)
+	if err != nil {
+		return "", fmt.Errorf("read resp.Body fail:%v", err)
+	}
 	log.Infof("dfget url:%s [SUCCESS] cost:%.3fs", url, time.Since(startTime).Seconds())
-	return dstPath, nil
+	fmt.Println(string(body))
+	return string(body), nil
 /*
 	cmd := dfGetter.getCommand(ctx, url, header, dstPath)
 	err := cmd.Run()

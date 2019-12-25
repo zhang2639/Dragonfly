@@ -28,7 +28,7 @@ import (
 	"github.com/Dragonfly/dfdaemon/config"
 	"github.com/Dragonfly/dfdaemon/constant"
 	dferr "github.com/Dragonfly/pkg/errortypes"
-	"github.com/Dragonfly/pkg/netutils"
+	//"github.com/Dragonfly/pkg/netutils"
 	"github.com/Dragonfly/pkg/rate"
 
 	"github.com/mitchellh/mapstructure"
@@ -101,7 +101,7 @@ func init() {
 	rf.String("localrepo", "", "temp output dir of dfdaemon")
 	rf.String("workHome", filepath.Join(os.Getenv("HOME"), ".small-dragonfly"), "the work home directory of dfdaemon.")
 	rf.String("dfpath", defaultDfgetPath, "dfget path")
-	rf.Var(netutils.NetLimit(), "ratelimit", "net speed limit")
+	//rf.Var(netutils.NetLimit(), "ratelimit", "net speed limit")
 	rf.StringSlice("node", nil, "specify the addresses(host:port) of supernodes that will be passed to dfget.")
 
 	exitOnError(bindRootFlags(viper.GetViper()), "bind root command flags")
